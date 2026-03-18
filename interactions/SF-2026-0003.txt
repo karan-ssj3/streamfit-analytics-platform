@@ -1,0 +1,65 @@
+INTERACTION ID: SF-2026-0003
+DATE: 2026-02-10
+DURATION: 14:28
+CHANNEL: Phone
+AGENT: Sarah Mitchell
+
+---
+
+[00:00:04] Agent: Thanks for calling StreamFit, you're speaking with Sarah. How can I help?
+
+[00:00:08] Customer: Hi! So, I'm looking at signing up but I want to understand the plans before I commit. I've been using the free trial for about a week now.
+
+[00:00:17] Agent: Great! Welcome aboard. How are you finding the trial so far?
+
+[00:00:21] Customer: It's pretty good actually. I've done a couple of the yoga classes and a cycling one. The production quality is nice. But I'm trying to work out whether it's worth paying for versus some of the other options out there.
+
+[00:00:35] Agent: Totally fair. What other platforms are you comparing us with?
+
+[00:00:39] Customer: Mainly FitFlow and Peloton's app. FitFlow is like $15 a month which is pretty cheap. Peloton is about $25 I think. And then you guys are, what, $19.99 for Basic?
+
+[00:00:53] Agent: That's right. So our Basic plan is $19.99 per month, and that gives you access to our full on-demand library — that's over 2,000 classes across yoga, HIIT, strength, cycling, pilates, and meditation. The Premium plan is $29.99 and adds live classes, offline downloads, and our AI workout planner.
+
+[00:01:14] Customer: What's the AI workout planner?
+
+[00:01:17] Agent: It's a feature that builds personalized weekly training plans based on your goals, fitness level, and available time. It adapts as you complete classes and give feedback. It's actually been one of our most popular features since launch.
+
+[00:01:32] Customer: That's interesting. I've been looking for something that can actually programme my training rather than me just randomly picking classes. Does it work well?
+
+[00:01:42] Agent: The feedback has been really positive. It uses your workout history and preferences to suggest a balanced programme. If you're someone who wants structure rather than just browsing, it's worth considering.
+
+[00:01:55] Customer: Hmm, OK. And the free trial — is that on Basic or Premium?
+
+[00:01:59] Agent: The trial gives you full Premium access so you can experience everything before you decide. At the end of the 14 days, it converts to a paid Premium subscription — but you can downgrade to Basic or cancel at any time before then. You'll get a reminder email two days before the trial ends.
+
+[00:02:12] Customer: OK, that's good to know. How many days do I have left?
+
+[00:02:17] Agent: You've got seven days left on your trial. So plenty of time to test the AI planner and see if Premium is worth it for you.
+
+[00:02:28] Customer: Perfect. And one more thing — my partner and I both work out. Is there a way to share an account or do we both need separate subscriptions?
+
+[00:02:38] Agent: Good question. We do have a Family plan at $39.99 per month, which includes up to four profiles under one account. Each person gets their own workout history, preferences, and AI plan. It's actually better value than two individual Basic plans.
+
+[00:02:56] Customer: Oh that's smart. So $39.99 for both of us instead of $40 for two Basics. But do we each get the Premium features on the Family plan?
+
+[00:03:05] Agent: Yes, Family includes all Premium features for every profile.
+
+[00:03:10] Customer: OK, I'll definitely look into that. My partner is more into pilates and I'm more weights and cycling, so having separate profiles makes sense. Let me try the Premium trial first and then I'll probably go with Family.
+
+[00:03:25] Agent: Sounds like a plan. I've upgraded your trial now. You should see the Premium features available immediately in the app. Anything else I can help with?
+
+[00:03:35] Customer: Actually yes — one complaint from the trial. The app on my Samsung TV is really laggy. Like, it takes ages to load and sometimes the video buffers mid-class. On my phone it's fine.
+
+[00:03:49] Agent: Sorry about that. We've had some reports about the Samsung TV app performance, especially on older models. Can I ask what model TV you have?
+
+[00:03:58] Customer: It's a 2021 Samsung Frame. So not that old.
+
+[00:04:03] Agent: Yeah, the Frame series should definitely run it better than that. There's a known issue with the Samsung TV app that our engineering team is working on. A fix is expected in the next app update, which is targeted for mid-March. In the meantime, if you have a Chromecast or can cast from your phone, that tends to be smoother.
+
+[00:04:25] Customer: I can try casting, yeah. It's just annoying because the whole point of the TV app is convenience.
+
+[00:04:31] Agent: Completely agree. I'll flag your specific device in the bug report as well so the team knows it's affecting Frame TVs.
+
+[00:04:40] Customer: Appreciate it. OK, I think that's everything. Thanks Sarah.
+
+[00:04:44] Agent: You're welcome! Enjoy the Premium trial and let us know if you and your partner decide to go with Family. Have a great day.

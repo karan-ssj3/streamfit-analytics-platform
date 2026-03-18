@@ -1,0 +1,167 @@
+{
+  "interaction_id": "SF-2026-0006",
+  "interaction": {
+    "type": "plan_change",
+    "channel": "phone",
+    "duration_seconds": 535,
+    "agent": {
+      "name": "Sarah Mitchell",
+      "handled_well": true,
+      "notable_actions": "Proactively quantified savings ($80/month vs 4 individual Premium plans); disclosed 3-stream concurrent limit before customer asked; logged parental control feedback; completed plan switch in-call with clear billing explanation"
+    },
+    "resolution": {
+      "status": "resolved",
+      "summary": "Plan switched from Premium to Family ($39.99) effective immediately. Customer fully informed on all features, profile independence, content ratings, device sync, and 3-stream concurrent limit. Three additional profiles to be created by family members via app. Customer satisfied."
+    }
+  },
+  "customer": {
+    "name": null,
+    "tenure_months": null,
+    "current_plan": "premium",
+    "lifecycle_stage": "active",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": "family",
+      "fitness_level": "intermediate"
+    }
+  },
+  "sentiment": {
+    "overall": "positive",
+    "trajectory": "stable",
+    "emotional_intensity": "low",
+    "key_moments": [
+      {
+        "timestamp": "00:00:52",
+        "description": "Customer approves value: '$10 more for three extra people. That's actually decent value.'",
+        "sentiment_shift": "positive_baseline",
+        "trigger": "Price comparison clearly favourable vs multiple individual plans"
+      },
+      {
+        "timestamp": "00:01:58",
+        "description": "Customer raises parental controls concern for 14-year-old daughter",
+        "sentiment_shift": "mild_negative",
+        "trigger": "Parental content concern for teen profiles"
+      },
+      {
+        "timestamp": "00:02:22",
+        "description": "Agent acknowledges parental controls gap and logs feedback; customer accepts",
+        "sentiment_shift": "neutral",
+        "trigger": "Agent transparent about limitation; customer pragmatic"
+      },
+      {
+        "timestamp": "00:03:14",
+        "description": "Customer decides: 'Alright, let's switch me to Family. Can you do that now?'",
+        "sentiment_shift": "positive",
+        "trigger": "All questions resolved; decision made with confidence"
+      },
+      {
+        "timestamp": "00:03:49",
+        "description": "Customer closes: 'Great. Thanks Sarah, this was easy.'",
+        "sentiment_shift": "positive_close",
+        "trigger": "Friction-free upgrade experience; all concerns addressed"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "content",
+        "description": "No proper parental content control system for teen profiles. Agent confirmed manual per-profile 18+ filter exists but no set-once parental lock. Customer requested a proper parental controls feature.",
+        "severity": "medium",
+        "verbatim_quote": "Be nice if there was a proper parental control system. Like, set it once and done.",
+        "actionable": true
+      }
+    ],
+    "motivations": [
+      {
+        "type": "household_use",
+        "description": "Family expanding app use: wife (pilates), son 16 (boxing/HIIT), daughter 14 (pilates), account holder (weights/cycling). Family plan solves recommendation contamination and provides independent profiles.",
+        "strength": "strong"
+      },
+      {
+        "type": "price",
+        "description": "Family plan at $39.99 vs four individual Premiums at $119.96 — $80/month saving is the primary financial motivator.",
+        "strength": "strong"
+      }
+    ],
+    "competitor_mentions": [],
+    "feature_requests": [
+      {
+        "feature": "Parental content controls (set-once, per-profile age restriction)",
+        "urgency": "important",
+        "existing_workaround": "Manual 18+ filter in each profile settings"
+      }
+    ]
+  },
+  "intent": {
+    "primary": "Upgrade from Premium to Family plan to add wife and two teenage children to account",
+    "secondary": "Ensure each family member has independent profiles with appropriate content settings",
+    "churn_risk": {
+      "level": "none",
+      "factors": [],
+      "save_attempted": false,
+      "save_successful": null,
+      "save_condition": null
+    },
+    "upsell_opportunity": {
+      "level": "none",
+      "target_plan": null,
+      "signals": [
+        "Upsell already completed in-call — Premium to Family"
+      ]
+    }
+  },
+  "topics": [
+    {
+      "topic": "Family plan upgrade",
+      "relevance": "primary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Independent family profiles",
+      "relevance": "primary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Parental content controls",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Concurrent stream limit (3)",
+      "relevance": "secondary",
+      "sentiment": "neutral"
+    },
+    {
+      "topic": "Offline downloads for wife",
+      "relevance": "secondary",
+      "sentiment": "positive"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Switch account from Premium to Family — completed in-call with prorated billing explained",
+      "owner": "agent",
+      "priority": "high",
+      "status": "completed"
+    },
+    {
+      "action": "Log parental content controls as product feature request — completed in-call",
+      "owner": "agent",
+      "priority": "medium",
+      "status": "completed"
+    },
+    {
+      "action": "Customer to add three family profiles via Settings > Family Profiles > Add Profile in app",
+      "owner": "customer",
+      "priority": "medium",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": false,
+    "review_reasons": []
+  }
+}

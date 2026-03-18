@@ -1,0 +1,180 @@
+{
+  "interaction_id": "SF-2026-0002",
+  "interaction": {
+    "type": "billing_dispute",
+    "channel": "phone",
+    "duration_seconds": 555,
+    "agent": {
+      "name": "Marcus Chen",
+      "handled_well": true,
+      "notable_actions": "Processed duplicate charge refund immediately; escalated overdraft refund path (contingent on bank statement); explained root cause of wrong-date charge"
+    },
+    "resolution": {
+      "status": "partially_resolved",
+      "summary": "Duplicate charge of $29.99 refunded immediately (3-5 business days). Overdraft refund of $35 not yet processed — contingent on customer emailing bank statement to billing@streamfit.com. Root cause (wrong-date January charge) acknowledged but not compensated directly in-call."
+    }
+  },
+  "customer": {
+    "name": "David Wright",
+    "tenure_months": 8,
+    "current_plan": "basic",
+    "lifecycle_stage": "at_risk",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": null,
+      "fitness_level": "unknown"
+    }
+  },
+  "sentiment": {
+    "overall": "negative",
+    "trajectory": "improving",
+    "emotional_intensity": "high",
+    "key_moments": [
+      {
+        "timestamp": "00:00:06",
+        "description": "Customer opens with anger — double charge of $59.98 vs expected $29.99",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Financial impact immediately felt; tone starts confrontational"
+      },
+      {
+        "timestamp": "00:00:58",
+        "description": "Customer challenges 3-5 day refund timeline: 'You took the money instantly but it takes a week to give it back?'",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Perceived asymmetry between charge speed and refund speed"
+      },
+      {
+        "timestamp": "00:01:16",
+        "description": "Customer discloses overdraft fee from January wrong-date charge — $35 in bank fees",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Prior billing error with real financial consequence (overdraft)"
+      },
+      {
+        "timestamp": "00:02:11",
+        "description": "Agent offers direct $35 refund contingent on bank statement — customer accepts",
+        "sentiment_shift": "turning_point",
+        "trigger": "Concrete resolution path offered after initial credit-only offer rejected"
+      },
+      {
+        "timestamp": "00:03:30",
+        "description": "Customer accepts summary: 'Alright. I'll hold you to that.'",
+        "sentiment_shift": "positive_shift",
+        "trigger": "Resolution path confirmed; tension reduced but skepticism remains"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "billing",
+        "description": "System generated duplicate charge on February 8th — two identical charges of $29.99 at the same timestamp.",
+        "severity": "high",
+        "verbatim_quote": "I've got $59.98 taken out of my account when it should be $29.99.",
+        "actionable": true
+      },
+      {
+        "category": "billing",
+        "description": "January charge posted on the 3rd instead of the 8th (billing date), causing a $35 overdraft bank fee.",
+        "severity": "high",
+        "verbatim_quote": "That cost me $35 in bank fees because your system charged me on the 3rd instead of the 8th.",
+        "actionable": true
+      },
+      {
+        "category": "content",
+        "description": "Customer on Basic plan is frustrated that desirable classes are locked behind Premium, undermining perceived value of current plan.",
+        "severity": "medium",
+        "verbatim_quote": "half the good classes are Premium-only... it's getting hard to justify.",
+        "actionable": true
+      }
+    ],
+    "motivations": [
+      {
+        "type": "price",
+        "description": "Customer joined for perceived value; two billing errors have eroded that value proposition significantly.",
+        "strength": "weak"
+      }
+    ],
+    "competitor_mentions": [],
+    "feature_requests": []
+  },
+  "intent": {
+    "primary": "Resolve duplicate charge and seek compensation for overdraft bank fee caused by wrong-date billing error",
+    "secondary": "Signal dissatisfaction with Basic plan value; considering cancellation if billing issues persist",
+    "churn_risk": {
+      "level": "medium",
+      "factors": [
+        "Two billing errors in two consecutive months",
+        "Real financial harm (overdraft fee) from StreamFit system error",
+        "Expressed explicit cancellation consideration: 'getting close to just ditching it'",
+        "Basic plan perceived as poor value due to Premium content wall"
+      ],
+      "save_attempted": false,
+      "save_successful": null,
+      "save_condition": null
+    },
+    "upsell_opportunity": {
+      "level": "low",
+      "target_plan": "premium",
+      "signals": [
+        "Mentioned Premium-only classes he cannot access",
+        "However, trust is currently low due to billing errors — upsell attempt would likely backfire now"
+      ]
+    }
+  },
+  "topics": [
+    {
+      "topic": "Duplicate billing charge",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Wrong-date charge causing overdraft",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Refund timeline",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Basic plan value",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Process $29.99 duplicate charge refund — initiated in-call",
+      "owner": "agent",
+      "priority": "high",
+      "status": "completed"
+    },
+    {
+      "action": "Process $35 overdraft refund upon receipt of customer bank statement at billing@streamfit.com — contingent",
+      "owner": "billing_team",
+      "priority": "high",
+      "status": "pending"
+    },
+    {
+      "action": "Escalate wrong-date billing error to engineering to confirm fix rollout applies to David Wright's account",
+      "owner": "engineering",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "action": "Monitor account for cancellation signal — customer expressed intent to leave if billing issues recur",
+      "owner": "agent",
+      "priority": "medium",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": true,
+    "review_reasons": [
+      "Overdraft refund is contingent on customer action (bank statement email) — follow-up required to confirm receipt and processing.",
+      "Customer expressed cancellation consideration — account at risk if second refund is not honoured."
+    ]
+  }
+}

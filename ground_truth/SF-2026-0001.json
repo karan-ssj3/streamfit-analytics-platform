@@ -1,0 +1,200 @@
+{
+  "interaction_id": "SF-2026-0001",
+  "interaction": {
+    "type": "cancellation",
+    "channel": "phone",
+    "duration_seconds": 702,
+    "agent": {
+      "name": "Sarah Mitchell",
+      "handled_well": true,
+      "notable_actions": "Offered loyalty discount of 50% for 3 months; logged advanced strength training as high-priority content request"
+    },
+    "resolution": {
+      "status": "partially_resolved",
+      "summary": "Cancellation averted by offering 3 months at $14.99 (50% discount). Root cause — content staleness and lack of advanced strength training — was not resolved. Customer set an explicit deadline: will cancel permanently if advanced strength content is not live by April 15."
+    }
+  },
+  "customer": {
+    "name": null,
+    "tenure_months": 25,
+    "current_plan": "premium",
+    "lifecycle_stage": "at_risk",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": null,
+      "fitness_level": "advanced"
+    }
+  },
+  "sentiment": {
+    "overall": "negative",
+    "trajectory": "improving",
+    "emotional_intensity": "moderate",
+    "key_moments": [
+      {
+        "timestamp": "00:00:22",
+        "description": "Customer explains content has gone stale — same workouts for 6 months",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Frustration with lack of new content despite previous promises"
+      },
+      {
+        "timestamp": "00:00:54",
+        "description": "Customer reveals they were told 'big things coming in Q1' 3 months ago — nothing delivered",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Prior unmet promise erodes trust further"
+      },
+      {
+        "timestamp": "00:02:47",
+        "description": "Customer discloses they have already started using competitor FitFlow",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Competitor already in use — churn risk becomes concrete"
+      },
+      {
+        "timestamp": "00:03:12",
+        "description": "Customer accepts 3-month discount offer with explicit condition",
+        "sentiment_shift": "turning_point",
+        "trigger": "Half-price offer with upcoming advanced content promise"
+      },
+      {
+        "timestamp": "00:03:38",
+        "description": "Customer thanks agent: 'You've been helpful at least'",
+        "sentiment_shift": "positive_spike",
+        "trigger": "Agent's empathy and concrete offer acknowledged"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "content",
+        "description": "Content library has stagnated — no new classes added in approximately 6 months. Advanced strength training is severely underrepresented (12 beginner-level classes only).",
+        "severity": "high",
+        "verbatim_quote": "the last, I don't know, six months? It feels like nothing new has been added. I'm doing the same workouts I was doing in October.",
+        "actionable": true
+      },
+      {
+        "category": "content",
+        "description": "Strength training category lacks intermediate-to-advanced programming. Customer has been lifting for years and needs progression beyond beginner level.",
+        "severity": "high",
+        "verbatim_quote": "if you're into weightlifting there's like twelve classes total. And the ones that are there are beginner level. I've been lifting for years, I need intermediate to advanced programming.",
+        "actionable": true
+      },
+      {
+        "category": "customer_service",
+        "description": "Previous feedback submitted (survey + prior call) had no visible impact — erodes trust in feedback loop.",
+        "severity": "medium",
+        "verbatim_quote": "I've given this feedback before. I even filled out that survey you sent last year. Nothing changed.",
+        "actionable": true
+      }
+    ],
+    "motivations": [
+      {
+        "type": "content_quality",
+        "description": "Customer joined for HIIT series with Coach Daniels — specific content drove original purchase decision",
+        "strength": "strong"
+      },
+      {
+        "type": "price",
+        "description": "Willing to stay at half price to see if new content delivers — price sensitivity is real but secondary to content",
+        "strength": "moderate"
+      }
+    ],
+    "competitor_mentions": [
+      {
+        "name": "FitFlow",
+        "context": "currently_using",
+        "sentiment_vs_us": "competitor_preferred",
+        "detail": "Friend recommended FitFlow. Customer has already started using it. Cited better strength training section as the reason."
+      }
+    ],
+    "feature_requests": [
+      {
+        "feature": "Advanced strength training series",
+        "urgency": "dealbreaker",
+        "existing_workaround": "Using FitFlow for strength training"
+      },
+      {
+        "feature": "Intermediate-to-advanced HIIT programming",
+        "urgency": "important",
+        "existing_workaround": null
+      }
+    ]
+  },
+  "intent": {
+    "primary": "Cancel premium subscription due to stale content and lack of advanced strength training",
+    "secondary": "Seeking assurance that new advanced content will be delivered before committing to stay",
+    "churn_risk": {
+      "level": "high",
+      "factors": [
+        "Content library stagnant for 6+ months",
+        "Advanced strength training absent from catalogue",
+        "Competitor (FitFlow) already in active use",
+        "Prior feedback submitted with no visible result",
+        "Previous agent promise (Q1 content drop) unmet"
+      ],
+      "save_attempted": true,
+      "save_successful": true,
+      "save_condition": "Customer will cancel permanently if advanced strength training content is not live by April 15, 2026"
+    },
+    "upsell_opportunity": {
+      "level": "none",
+      "target_plan": null,
+      "signals": []
+    }
+  },
+  "topics": [
+    {
+      "topic": "Content staleness",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Advanced strength training gap",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Retention discount",
+      "relevance": "secondary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "FitFlow competitor",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "April content launch",
+      "relevance": "secondary",
+      "sentiment": "neutral"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Verify advanced strength training content is live before April 15, 2026 and proactively notify this customer",
+      "owner": "product",
+      "priority": "urgent",
+      "status": "pending"
+    },
+    {
+      "action": "Log advanced strength training as high-priority content request — already done by agent",
+      "owner": "agent",
+      "priority": "high",
+      "status": "completed"
+    },
+    {
+      "action": "Monitor this account for cancellation signal in April if content launch is delayed",
+      "owner": "agent",
+      "priority": "high",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": true,
+    "review_reasons": [
+      "Conditional save detected: customer's retention is time-bound. Follow-up required before April 15, 2026.",
+      "Competitor already in active use (FitFlow) — elevated churn risk if content deadline missed."
+    ]
+  }
+}

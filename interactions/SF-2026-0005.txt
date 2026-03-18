@@ -1,0 +1,42 @@
+INTERACTION ID: SF-2026-0005
+DATE: 2026-02-11
+DURATION: 06:18
+CHANNEL: Live Chat
+AGENT: James Okonkwo
+
+---
+
+[10:14:22] Customer: hi, the app keeps crashing on my samsung tv whenever i try to open a cycling class
+
+[10:14:45] Agent: Hi there! Sorry to hear about that. I'd love to help you troubleshoot. Can you tell me which Samsung TV model you're using?
+
+[10:15:03] Customer: its the 2020 crystal uhd, the 55 inch one
+
+[10:15:18] Agent: Thanks. We've had some reports of performance issues on that model series. Can I ask — does it crash on all classes or specifically cycling?
+
+[10:15:42] Customer: mainly cycling and hiit. the yoga ones seem to load ok. i think its the higher intensity video maybe? like more movement = more buffering?
+
+[10:16:01] Agent: That's a good observation actually. The cycling and HIIT classes do tend to use higher bitrate video. On some older Samsung models, the app struggles to decode those streams. Our engineering team has a fix in progress.
+
+[10:16:22] Customer: when will that be ready?
+
+[10:16:35] Agent: The target is a mid-March update. In the meantime, there are a couple of workarounds:
+1. Try reducing the video quality to 720p in Settings > Playback > Video Quality
+2. Clear the app cache: Settings > Apps > StreamFit > Clear Cache
+3. If you have a Chromecast, casting from your phone usually works better
+
+[10:17:15] Customer: ok ill try the 720p thing. kind of annoying to pay for premium and watch in lower quality tho
+
+[10:17:32] Agent: Totally understand. It's a temporary fix and shouldn't be necessary once the update rolls out. Would you like me to notify you when the update goes live?
+
+[10:17:48] Customer: yeah that would be good. also my subscription renews tomorrow and honestly ive been thinking about pausing it until the app works properly. can i do that?
+
+[10:18:05] Agent: You can pause your subscription for up to 3 months. During that time you won't be charged and your account data (workout history, preferences) will be preserved. Would you like me to set that up?
+
+[10:18:28] Customer: hmm. actually no, ill keep it going for now. my wife uses it on her phone and shes happy with it. just fix the tv app please
+
+[10:18:45] Agent: Will do. I've added your device details to the engineering ticket and opted you in for the update notification. Anything else I can help with?
+
+[10:18:58] Customer: nah thats it. thanks james
+
+[10:19:03] Agent: No problem! Hope the 720p workaround helps in the meantime. Have a great day.

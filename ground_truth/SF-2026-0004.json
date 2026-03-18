@@ -1,0 +1,177 @@
+{
+  "interaction_id": "SF-2026-0004",
+  "interaction": {
+    "type": "cancellation",
+    "channel": "phone",
+    "duration_seconds": 453,
+    "agent": {
+      "name": "Rachel Torres",
+      "handled_well": true,
+      "notable_actions": "Offered 6-month price lock at current rate ($29.99); explained plan alternatives clearly; validated customer feedback on price increase communication and committed to passing it on"
+    },
+    "resolution": {
+      "status": "partially_resolved",
+      "summary": "Cancellation averted by applying 6-month price lock at $29.99. Root cause — 17% price increase to $34.99 — is not resolved; customer will face the full new price in 6 months. Customer expressed genuine concern about long-term affordability as a single parent. No conditional language on the save — customer can cancel anytime."
+    }
+  },
+  "customer": {
+    "name": null,
+    "tenure_months": 14,
+    "current_plan": "premium",
+    "lifecycle_stage": "at_risk",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": "family",
+      "fitness_level": "beginner"
+    }
+  },
+  "sentiment": {
+    "overall": "negative",
+    "trajectory": "improving",
+    "emotional_intensity": "moderate",
+    "key_moments": [
+      {
+        "timestamp": "00:00:07",
+        "description": "Customer opens calmly but with immediate concern: 'Is that right?' — seeking explanation for price increase email",
+        "sentiment_shift": "negative_baseline",
+        "trigger": "Price increase email received; $5/month increase flagged"
+      },
+      {
+        "timestamp": "00:00:45",
+        "description": "Customer rejects generic 'continued investment' justification; discloses single-parent financial pressure",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Price increase feels unjustified without tangible new feature on March 1st"
+      },
+      {
+        "timestamp": "00:01:09",
+        "description": "Customer raises cancellation threat but softens it with emotional stake: family yoga Saturday routine with daughters",
+        "sentiment_shift": "mixed",
+        "trigger": "Financial pressure vs emotional attachment to platform routine"
+      },
+      {
+        "timestamp": "00:02:32",
+        "description": "Customer accepts 6-month price lock: 'Six months at the old price? OK, that's something.'",
+        "sentiment_shift": "turning_point",
+        "trigger": "Concrete retention offer that delays the price impact"
+      },
+      {
+        "timestamp": "00:02:43",
+        "description": "Customer closes with constructive feedback and thanks agent warmly",
+        "sentiment_shift": "positive_close",
+        "trigger": "Agent handled with empathy; customer feels heard"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "pricing",
+        "description": "17% price increase ($29.99 → $34.99) with no tangible new feature delivered on the change date. Customer is price-sensitive as a single parent managing household budget.",
+        "severity": "high",
+        "verbatim_quote": "I'm a single mum with two kids, I've got to watch every dollar. This might seem small to you but $5 a month adds up.",
+        "actionable": true
+      },
+      {
+        "category": "customer_service",
+        "description": "Price increase communication framed as 'continued investment' with no specific near-term feature to justify the change. Customer explicitly called out the need for a concrete value demonstration.",
+        "severity": "medium",
+        "verbatim_quote": "when you raise prices, you need to give people something tangible. Don't just say 'continued investment.' Show me a new feature I can use on March 1st that justifies the increase.",
+        "actionable": true
+      }
+    ],
+    "motivations": [
+      {
+        "type": "content_quality",
+        "description": "Family yoga routine with daughters on Saturday mornings — emotionally significant use case. Platform genuinely valued.",
+        "strength": "strong"
+      },
+      {
+        "type": "price",
+        "description": "Price sensitivity is the primary pain trigger; offline downloads also cited as important utility feature.",
+        "strength": "strong"
+      }
+    ],
+    "competitor_mentions": [],
+    "feature_requests": [
+      {
+        "feature": "Offline downloads (already on Premium — mentioned as reason not to downgrade to Basic)",
+        "urgency": "important",
+        "existing_workaround": null
+      }
+    ]
+  },
+  "intent": {
+    "primary": "Cancel Premium subscription due to unannounced 17% price increase",
+    "secondary": "Seeking price relief or justification for the increase; willing to stay if cost pressure is addressed",
+    "churn_risk": {
+      "level": "medium",
+      "factors": [
+        "Price increase of 17% is the sole trigger — root cause unresolved",
+        "Price lock expires in 6 months; churn risk will resurface at month 20",
+        "Single-parent household with budget sensitivity",
+        "No competitor alternatives mentioned — retention lever is price, not content gap"
+      ],
+      "save_attempted": true,
+      "save_successful": true,
+      "save_condition": null
+    },
+    "upsell_opportunity": {
+      "level": "none",
+      "target_plan": null,
+      "signals": []
+    }
+  },
+  "topics": [
+    {
+      "topic": "Price increase",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "6-month price lock retention offer",
+      "relevance": "primary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Offline downloads",
+      "relevance": "secondary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Family yoga routine",
+      "relevance": "secondary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Price increase communication",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Apply 6-month price lock at $29.99 to account — completed in-call",
+      "owner": "agent",
+      "priority": "high",
+      "status": "completed"
+    },
+    {
+      "action": "Pass customer feedback on price increase communication to product team: customers need tangible feature announcement alongside price change",
+      "owner": "product",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "action": "Flag account for proactive outreach in month 5 of price lock — before lock expires at month 20 of tenure",
+      "owner": "agent",
+      "priority": "medium",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": false,
+    "review_reasons": []
+  }
+}

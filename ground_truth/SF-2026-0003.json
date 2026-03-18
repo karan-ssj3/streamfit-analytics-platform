@@ -1,0 +1,179 @@
+{
+  "interaction_id": "SF-2026-0003",
+  "interaction": {
+    "type": "plan_inquiry",
+    "channel": "phone",
+    "duration_seconds": 868,
+    "agent": {
+      "name": "Sarah Mitchell",
+      "handled_well": true,
+      "notable_actions": "Explained all three plan tiers clearly; surfaced Family plan unprompted when partner mentioned; flagged Samsung Frame TV issue in bug report; confirmed trial upgrade in-call"
+    },
+    "resolution": {
+      "status": "resolved",
+      "summary": "All plan comparison questions answered. Trial upgraded to confirm Premium access. Family plan recommended for partner household. Samsung Frame TV lag reported and logged; workaround (Chromecast) provided. Customer satisfied — likely to convert to Family plan."
+    }
+  },
+  "customer": {
+    "name": null,
+    "tenure_months": 0,
+    "current_plan": "free_trial",
+    "lifecycle_stage": "onboarding",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": "couple",
+      "fitness_level": "intermediate"
+    }
+  },
+  "sentiment": {
+    "overall": "positive",
+    "trajectory": "stable",
+    "emotional_intensity": "low",
+    "key_moments": [
+      {
+        "timestamp": "00:00:21",
+        "description": "Customer opens positively: 'It's pretty good actually'",
+        "sentiment_shift": "positive_baseline",
+        "trigger": "Trial experience has been satisfactory so far"
+      },
+      {
+        "timestamp": "00:03:35",
+        "description": "Customer raises Samsung Frame TV lag — first friction point",
+        "sentiment_shift": "mild_negative",
+        "trigger": "App performance issue on TV despite phone working fine"
+      },
+      {
+        "timestamp": "00:04:25",
+        "description": "Customer acknowledges workaround with mild frustration: 'It's just annoying because the whole point of the TV app is convenience'",
+        "sentiment_shift": "neutral",
+        "trigger": "Issue acknowledged but workaround accepted"
+      },
+      {
+        "timestamp": "00:04:40",
+        "description": "Customer closes positively: 'Appreciate it. OK, I think that's everything. Thanks Sarah.'",
+        "sentiment_shift": "positive_close",
+        "trigger": "All questions resolved; bug flagged for follow-up"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "app_performance",
+        "description": "Samsung Frame TV (2021) experiences significant lag and mid-class video buffering. Phone app works fine. Engineering bug fix targeted for mid-March.",
+        "severity": "medium",
+        "verbatim_quote": "The app on my Samsung TV is really laggy. Like, it takes ages to load and sometimes the video buffers mid-class.",
+        "actionable": true
+      }
+    ],
+    "motivations": [
+      {
+        "type": "content_quality",
+        "description": "Customer tried yoga and cycling classes — positive impression of production quality drove continued interest.",
+        "strength": "moderate"
+      },
+      {
+        "type": "ai_features",
+        "description": "AI workout planner is a strong differentiator — customer explicitly wants structured programming, not random class browsing.",
+        "strength": "strong"
+      },
+      {
+        "type": "price",
+        "description": "Comparing StreamFit ($19.99/$29.99) against FitFlow ($15) and Peloton (~$25). Price is a consideration but not the deciding factor.",
+        "strength": "moderate"
+      }
+    ],
+    "competitor_mentions": [
+      {
+        "name": "FitFlow",
+        "context": "considering",
+        "sentiment_vs_us": "neutral",
+        "detail": "Currently comparing — FitFlow cited at $15/month as cheaper alternative. No strong preference either way yet."
+      },
+      {
+        "name": "Peloton",
+        "context": "considering",
+        "sentiment_vs_us": "neutral",
+        "detail": "Mentioned at ~$25/month as a comparison point. StreamFit Premium ($29.99) is slightly pricier."
+      }
+    ],
+    "feature_requests": [
+      {
+        "feature": "Improved Samsung TV app performance",
+        "urgency": "important",
+        "existing_workaround": "Chromecast from phone"
+      }
+    ]
+  },
+  "intent": {
+    "primary": "Evaluate StreamFit plans before committing at end of free trial — comparing features and price across competitors",
+    "secondary": "Likely to convert to Family plan for partner household; one open technical issue (TV app) could affect decision",
+    "churn_risk": {
+      "level": "low",
+      "factors": [
+        "Still in free trial — no commitment made yet",
+        "Samsung TV lag is a minor friction; workaround provided",
+        "Competing with FitFlow ($15) and Peloton (~$25)"
+      ],
+      "save_attempted": false,
+      "save_successful": null,
+      "save_condition": null
+    },
+    "upsell_opportunity": {
+      "level": "high",
+      "target_plan": "family",
+      "signals": [
+        "Partner also works out — Family plan saves money vs two separate subscriptions",
+        "Customer explicitly expressed intent: 'I'll probably go with Family'",
+        "AI workout planner is a genuine pull factor for Premium tier"
+      ]
+    }
+  },
+  "topics": [
+    {
+      "topic": "Plan comparison and pricing",
+      "relevance": "primary",
+      "sentiment": "neutral"
+    },
+    {
+      "topic": "AI workout planner",
+      "relevance": "primary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Family plan for partner",
+      "relevance": "secondary",
+      "sentiment": "positive"
+    },
+    {
+      "topic": "Samsung Frame TV lag",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Competitor comparison (FitFlow, Peloton)",
+      "relevance": "secondary",
+      "sentiment": "neutral"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Flag Samsung Frame TV (2021) in engineering bug report",
+      "owner": "agent",
+      "priority": "medium",
+      "status": "completed"
+    },
+    {
+      "action": "Follow up with customer when Samsung TV app update goes live (mid-March target)",
+      "owner": "engineering",
+      "priority": "medium",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": false,
+    "review_reasons": []
+  }
+}

@@ -1,0 +1,47 @@
+INTERACTION ID: SF-2026-0004
+DATE: 2026-02-11
+DURATION: 07:33
+CHANNEL: Phone
+AGENT: Rachel Torres
+
+---
+
+[00:00:03] Agent: StreamFit customer care, Rachel speaking. How can I help?
+
+[00:00:07] Customer: Hi Rachel. I just got an email saying my subscription is going up from $29.99 to $34.99 next month. Is that right?
+
+[00:00:16] Agent: Let me check. Yes, I can see that notification. We've had a price adjustment across our Premium tier effective March 1st. The new rate is $34.99 per month.
+
+[00:00:28] Customer: That's a 17% increase. What are we getting for that extra five dollars?
+
+[00:00:34] Agent: The increase supports continued investment in new content, platform improvements, and the expansion of our live class schedule. We're also adding a new recovery and mobility section—
+
+[00:00:45] Customer: Right, but I didn't ask for any of that. I signed up at $29.99 because that was the price I was comfortable with. I'm a single mum with two kids, I've got to watch every dollar. This might seem small to you but $5 a month adds up.
+
+[00:01:02] Agent: I completely understand, and I appreciate you being upfront about that. Let me see what options I have.
+
+[00:01:09] Customer: I mean, honestly, if this is non-negotiable I'll probably have to cancel. I love the platform — my daughters and I do the family yoga classes together every Saturday morning, it's become a whole thing. But thirty-five dollars is pushing it.
+
+[00:01:26] Agent: That's a lovely routine and I'd hate for you to lose that. Let me look at a couple of options. First, you could switch to our Basic plan at $19.99. You'd keep access to the full on-demand library including yoga, but you'd lose live classes, offline downloads, and the AI planner.
+
+[00:01:45] Customer: I do use the offline downloads quite a bit actually. We don't always have great wifi at home. What about the Family plan?
+
+[00:01:54] Agent: The Family plan is $39.99 and includes up to four profiles with all Premium features. But given your situation, that's obviously more not less.
+
+[00:02:04] Customer: Yeah, that doesn't help. Is there any loyalty discount or anything? I've been here for... I think about fourteen months?
+
+[00:02:14] Agent: Let me check what I can offer. [pause] OK, I can offer you a six-month price lock at your current rate of $29.99. After the six months, it would move to the new rate of $34.99. That gives you some time to adjust.
+
+[00:02:32] Customer: Six months at the old price? OK, that's something. Can I cancel before the six months is up if I need to?
+
+[00:02:39] Agent: Absolutely, no lock-in. You can cancel anytime.
+
+[00:02:43] Customer: Alright, let's do the six-month lock then. But honestly, you should tell your product team — when you raise prices, you need to give people something tangible. Don't just say "continued investment." Show me a new feature I can use on March 1st that justifies the increase.
+
+[00:03:01] Agent: That's really valuable feedback and I'll make sure it's passed on. I've applied the price lock to your account. Your next six billing cycles will be at $29.99.
+
+[00:03:12] Customer: Great, thank you Rachel.
+
+[00:03:14] Agent: You're welcome. Enjoy those Saturday yoga sessions with your daughters.
+
+[00:03:18] Customer: Will do. Bye.

@@ -1,0 +1,160 @@
+{
+  "interaction_id": "SF-2026-0005",
+  "interaction": {
+    "type": "technical_support",
+    "channel": "live_chat",
+    "duration_seconds": 378,
+    "agent": {
+      "name": "James Okonkwo",
+      "handled_well": true,
+      "notable_actions": "Provided 3 actionable workarounds; correctly diagnosed high-bitrate video issue; added device to engineering ticket; opted customer into update notification"
+    },
+    "resolution": {
+      "status": "partially_resolved",
+      "summary": "Three workarounds provided (720p, cache clear, Chromecast). Device added to engineering ticket. Update notification opted in. Root cause (app crash on Samsung 2020 Crystal UHD for high-bitrate cycling/HIIT content) not yet fixed — engineering update targeted for mid-March. Customer decided to keep subscription."
+    }
+  },
+  "customer": {
+    "name": null,
+    "tenure_months": null,
+    "current_plan": "premium",
+    "lifecycle_stage": "active",
+    "demographic_signals": {
+      "age_range": "unknown",
+      "household": "couple",
+      "fitness_level": "intermediate"
+    }
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "trajectory": "stable",
+    "emotional_intensity": "low",
+    "key_moments": [
+      {
+        "timestamp": "10:14:22",
+        "description": "Customer opens with direct problem report — app crashes on Samsung TV for cycling classes",
+        "sentiment_shift": "negative_baseline",
+        "trigger": "Technical issue preventing use of paid content"
+      },
+      {
+        "timestamp": "10:17:15",
+        "description": "Customer accepts 720p workaround but expresses mild frustration: 'kind of annoying to pay for premium and watch in lower quality'",
+        "sentiment_shift": "mild_negative",
+        "trigger": "Workaround degrades the premium experience they're paying for"
+      },
+      {
+        "timestamp": "10:18:28",
+        "description": "Customer considers pausing subscription due to renewal tomorrow",
+        "sentiment_shift": "negative_spike",
+        "trigger": "Renewal timing makes the unresolved bug feel more urgent"
+      },
+      {
+        "timestamp": "10:18:36",
+        "description": "Customer decides to keep subscription: 'my wife uses it on her phone and she's happy with it'",
+        "sentiment_shift": "turning_point",
+        "trigger": "Household use case (wife on phone) justifies continued subscription despite personal TV issue"
+      },
+      {
+        "timestamp": "10:18:58",
+        "description": "Customer closes with thanks: 'nah that's it. thanks james'",
+        "sentiment_shift": "positive_close",
+        "trigger": "Issue handled efficiently in chat format; no friction"
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "category": "app_performance",
+        "description": "Samsung 2020 Crystal UHD (55\") crashes on cycling and HIIT classes — confirmed as high-bitrate video decode issue on older Samsung models. Yoga classes load fine. Engineering fix in progress.",
+        "severity": "high",
+        "verbatim_quote": "the app keeps crashing on my samsung tv whenever i try to open a cycling class",
+        "actionable": true
+      },
+      {
+        "category": "pricing",
+        "description": "Customer feels downgrading video quality to 720p is an unfair compromise for a premium-paid subscription.",
+        "severity": "low",
+        "verbatim_quote": "kind of annoying to pay for premium and watch in lower quality tho",
+        "actionable": false
+      }
+    ],
+    "motivations": [
+      {
+        "type": "household_use",
+        "description": "Wife uses app on phone without issues — household value justifies subscription even while personal TV issue persists.",
+        "strength": "moderate"
+      }
+    ],
+    "competitor_mentions": [],
+    "feature_requests": []
+  },
+  "intent": {
+    "primary": "Resolve Samsung TV app crash on cycling and HIIT classes",
+    "secondary": "Considered pausing subscription due to renewal timing; ultimately kept subscription because wife uses app on phone",
+    "churn_risk": {
+      "level": "low",
+      "factors": [
+        "Bug affects only TV; phone/tablet usage unaffected",
+        "Wife also uses app — household dependency reduces individual churn risk",
+        "Engineering fix targeted for mid-March; if delayed, churn risk could increase"
+      ],
+      "save_attempted": false,
+      "save_successful": null,
+      "save_condition": null
+    },
+    "upsell_opportunity": {
+      "level": "none",
+      "target_plan": null,
+      "signals": []
+    }
+  },
+  "topics": [
+    {
+      "topic": "Samsung TV app crash on high-bitrate classes",
+      "relevance": "primary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Video quality workaround (720p)",
+      "relevance": "secondary",
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "Subscription pause consideration",
+      "relevance": "secondary",
+      "sentiment": "negative"
+    },
+    {
+      "topic": "Engineering fix timeline (mid-March)",
+      "relevance": "secondary",
+      "sentiment": "neutral"
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Add device (Samsung 2020 Crystal UHD 55\") to engineering bug ticket for app crash on high-bitrate content",
+      "owner": "agent",
+      "priority": "high",
+      "status": "completed"
+    },
+    {
+      "action": "Opt customer in for update notification when Samsung TV app fix is released",
+      "owner": "agent",
+      "priority": "medium",
+      "status": "completed"
+    },
+    {
+      "action": "Engineering to release Samsung TV fix by mid-March; if delayed, notify affected customers",
+      "owner": "engineering",
+      "priority": "high",
+      "status": "pending"
+    }
+  ],
+  "quality_flags": {
+    "interaction_quality": "clean",
+    "extraction_confidence": "high",
+    "requires_human_review": false,
+    "review_reasons": []
+  }
+}

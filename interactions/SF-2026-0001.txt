@@ -1,0 +1,53 @@
+INTERACTION ID: SF-2026-0001
+DATE: 2026-02-10
+DURATION: 11:42
+CHANNEL: Phone
+AGENT: Sarah Mitchell
+
+---
+
+[00:00:03] Agent: Thank you for calling StreamFit, this is Sarah. How can I help you today?
+
+[00:00:07] Customer: Hi Sarah. Yeah, look, I've been a member for... I think it's been about two years now? Maybe a bit over. And I'm calling because I want to cancel my subscription.
+
+[00:00:18] Agent: I'm sorry to hear that. Can I ask what's prompted this?
+
+[00:00:22] Customer: Honestly, the content has just gone stale. When I first signed up, there were new classes every week. New trainers, new formats, that HIIT series with Coach Daniels was incredible. But the last, I don't know, six months? It feels like nothing new has been added. I'm doing the same workouts I was doing in October.
+
+[00:00:45] Agent: I completely understand that frustration. We have been working on some new content launches and I know there's a big refresh coming in April—
+
+[00:00:54] Customer: Yeah, that's what I was told three months ago when I called about this the first time. Someone said "big things coming in Q1." Well, it's February and I'm still looking at the same catalogue.
+
+[00:01:06] Agent: That's fair. Let me look at your account. You're on the Premium plan, is that right?
+
+[00:01:11] Customer: Yeah, $29.99 a month. Which, honestly, was fine when the content was fresh. But I'm basically paying thirty bucks a month for a library that doesn't change.
+
+[00:01:23] Agent: I see your account here. You've been with us since January 2024, so just over two years. That's a long time and we really value that loyalty. Can I ask — are there specific types of content you'd want to see more of?
+
+[00:01:38] Customer: I mean, yeah. More strength training, for one. The yoga catalogue is massive but if you're into weightlifting there's like twelve classes total. And the ones that are there are beginner level. I've been lifting for years, I need intermediate to advanced programming. Not "here's how to do a bicep curl."
+
+[00:02:01] Agent: That's really helpful feedback. I can definitely log that as a content request—
+
+[00:02:06] Customer: I appreciate that, but I've given this feedback before. I even filled out that survey you sent last year. Nothing changed. At some point you just vote with your wallet, you know?
+
+[00:02:18] Agent: I understand. Before I process the cancellation, I'd like to mention that we do have a loyalty offer available for long-term members. I can offer you three months at $14.99 — that's half price — to give you time to see the new content when it launches.
+
+[00:02:35] Customer: When exactly does the new content launch?
+
+[00:02:38] Agent: The next major content drop is scheduled for April 15th, and I can see it includes a new advanced strength training series.
+
+[00:02:47] Customer: Hmm. Look, I'll be honest with you. I've already started using FitFlow. My mate recommended it and they've got a much better strength section. But... half price for three months, you said?
+
+[00:03:02] Agent: Yes, $14.99 per month for three months. Your regular rate would resume after that, but you can cancel anytime during those three months as well.
+
+[00:03:12] Customer: Alright. Fine. I'll give it three months. But if I don't see new strength content by April, I'm gone for good. Fair warning.
+
+[00:03:22] Agent: Totally fair. I've applied the discount to your account starting from your next billing date, which is February 18th. You'll see $14.99 instead of $29.99. And I've logged your feedback about advanced strength training content as high priority.
+
+[00:03:38] Customer: Alright, appreciate it Sarah. You've been helpful at least.
+
+[00:03:42] Agent: Thank you for giving us another chance, and I genuinely hope the new content meets your expectations. Is there anything else I can help with?
+
+[00:03:50] Customer: No, that's everything. Thanks.
+
+[00:03:52] Agent: Have a great day. Bye.

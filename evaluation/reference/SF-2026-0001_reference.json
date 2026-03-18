@@ -1,0 +1,41 @@
+{
+  "interaction_id": "SF-2026-0001",
+  "interaction": {
+    "type": "cancellation",
+    "channel": "phone",
+    "resolution": {
+      "status": "partially_resolved"
+    },
+    "agent": {
+      "handled_well": true
+    }
+  },
+  "customer": {
+    "tenure_months": 25,
+    "current_plan": "premium",
+    "lifecycle_stage": "at_risk",
+    "demographic_signals": {
+      "fitness_level": "advanced"
+    }
+  },
+  "sentiment": {
+    "overall": "negative",
+    "trajectory": "improving",
+    "emotional_intensity": "moderate"
+  },
+  "intent": {
+    "churn_risk": {
+      "level": "high",
+      "save_attempted": true,
+      "save_successful": true,
+      "save_condition": "Customer will cancel if advanced strength content not live by April 15"
+    },
+    "upsell_opportunity": {
+      "level": "none"
+    }
+  },
+  "quality_flags": {
+    "extraction_confidence": "high",
+    "requires_human_review": true
+  }
+}

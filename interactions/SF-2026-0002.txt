@@ -1,0 +1,53 @@
+INTERACTION ID: SF-2026-0002
+DATE: 2026-02-10
+DURATION: 09:15
+CHANNEL: Phone
+AGENT: Marcus Chen
+
+---
+
+[00:00:02] Agent: StreamFit support, this is Marcus. What can I help you with?
+
+[00:00:06] Customer: Yeah, hi. I just got charged twice this month and I need this sorted out right now. I've got $59.98 taken out of my account when it should be $29.99.
+
+[00:00:16] Agent: I'm sorry about that. Let me pull up your account. Can I get your email address?
+
+[00:00:20] Customer: It's david.wright@email.com. And honestly, this isn't the first time I've had billing issues. Last month I got charged on the wrong date and it caused an overdraft.
+
+[00:00:33] Agent: I've got your account here, David. Let me look at the billing history. So I can see two charges on February 8th — one at 2:14 AM and another at 2:14 AM. That looks like a system duplicate.
+
+[00:00:48] Customer: Great. So what are you going to do about it?
+
+[00:00:51] Agent: I can process a refund for the duplicate charge right now. It typically takes 3-5 business days to appear back in your account—
+
+[00:00:58] Customer: 3-5 business days? Are you kidding me? You took the money instantly but it takes a week to give it back?
+
+[00:01:05] Agent: I understand that's frustrating. Unfortunately the refund timeline is determined by your bank, not by us. But I can confirm the refund will be initiated immediately on our end.
+
+[00:01:16] Customer: And what about the overdraft last month? That cost me $35 in bank fees because your system charged me on the 3rd instead of the 8th.
+
+[00:01:26] Agent: Let me look at that. I can see your billing date is set to the 8th of each month... and yes, I can see the January charge went through on the 3rd. That does look like an error on our end.
+
+[00:01:40] Customer: So are you going to cover the overdraft fee?
+
+[00:01:43] Agent: I'm not able to directly reimburse bank fees, but what I can do is apply a credit to your StreamFit account. I can offer you one month free, which would be a $29.99 credit. That more than covers the $35 overdraft when you factor in the service you're receiving.
+
+[00:02:01] Customer: That doesn't really work the same way though, does it? You're not actually giving me money back, you're just... making me stay subscribed for free for a month.
+
+[00:02:11] Agent: I hear you. Let me see what else I can do. [pause] OK, I can also process a direct refund of $35 to cover the overdraft fee. I'll need you to send a screenshot or PDF of the bank statement showing the fee to billing@streamfit.com, and we'll process it within 48 hours.
+
+[00:02:32] Customer: Fine. I'll send that through today. But seriously, how does a system charge someone on the wrong date? Is this a common thing?
+
+[00:02:41] Agent: It's not common, no. It can happen when there's a payment gateway timeout and the retry logic triggers on a different date. We've actually rolled out an update to prevent this. I don't expect you'll see this issue again.
+
+[00:02:55] Customer: You better hope not. I've been on the Basic plan for about eight months now and I'm honestly getting close to just ditching it. Between the billing problems and the fact that half the good classes are Premium-only... it's getting hard to justify.
+
+[00:03:12] Agent: I understand. Your loyalty matters to us and I want to make sure we get this right. So to summarize: I'm processing the duplicate charge refund of $29.99 now, and once you send the bank statement to billing@streamfit.com, we'll refund the $35 overdraft fee within 48 hours.
+
+[00:03:30] Customer: Alright. I'll hold you to that.
+
+[00:03:33] Agent: Absolutely. Is there anything else I can help with today?
+
+[00:03:36] Customer: No, just fix the billing system.
+
+[00:03:39] Agent: Noted. Have a good day, David.

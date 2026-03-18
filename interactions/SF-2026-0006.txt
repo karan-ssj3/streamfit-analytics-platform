@@ -1,0 +1,55 @@
+INTERACTION ID: SF-2026-0006
+DATE: 2026-02-11
+DURATION: 08:55
+CHANNEL: Phone
+AGENT: Sarah Mitchell
+
+---
+
+[00:00:03] Agent: StreamFit, Sarah speaking. How can I help?
+
+[00:00:06] Customer: Hey, I'm calling to ask about the Family plan. I'm currently on Premium by myself but my wife and two teenage kids all want accounts now. They keep using mine and messing up my recommendations.
+
+[00:00:20] Agent: Ha, I hear that a lot actually. The Family plan would definitely solve that. It's $39.99 per month and allows up to four individual profiles, each with their own workout history, preferences, and AI workout plans.
+
+[00:00:35] Customer: And everyone gets Premium features? My wife specifically wants the offline downloads because she works out at the gym and doesn't want to use mobile data.
+
+[00:00:45] Agent: Yes, all profiles get full Premium features including offline downloads, live classes, and the AI planner.
+
+[00:00:52] Customer: OK, so I'm paying $29.99 now and Family is $39.99. So it's essentially ten bucks more for three extra people. That's actually decent value.
+
+[00:01:03] Agent: It really is. Four Premium accounts individually would be $119.96, so you're saving about $80 a month.
+
+[00:01:12] Customer: Right. And can each person have their own taste? Like, my son is 16 and he's into the boxing and HIIT stuff. My daughter is 14 and does pilates. I don't want them seeing each other's stuff or my wife's stuff.
+
+[00:01:28] Agent: Each profile is completely independent. Their own home screen, their own recommendations, their own workout history. The only shared thing is the billing, which goes to the account owner — that would be you.
+
+[00:01:41] Customer: What about content restrictions for the kids? I think some of the meditation content has, like, mature themes? My daughter mentioned something about a "body confidence" class that was a bit... I don't know, we just want to be careful.
+
+[00:01:58] Agent: That's a good point. We don't currently have parental content controls, but I can tell you that all our content is rated and the teen profiles can be set to filter out any classes tagged as 18+. It's a manual setting though — you'd need to go into each profile's settings.
+
+[00:02:16] Customer: Be nice if there was a proper parental control system. Like, set it once and done.
+
+[00:02:22] Agent: Agreed, and that feedback has come up before. I'll log it again because the more requests we get the more likely it is to be prioritised.
+
+[00:02:31] Customer: Alright. One more question — we've only got two TVs and four people. Can we use the same profile on different devices? Like, if my son starts a workout on his phone and wants to finish on the TV?
+
+[00:02:46] Agent: Yes, profiles can be used across multiple devices and your progress syncs automatically. The one limitation is simultaneous streams — the Family plan allows up to three concurrent streams.
+
+[00:02:59] Customer: Three? Not four?
+
+[00:03:01] Agent: That's right, three concurrent streams. So three of the four of you could be watching at the same time. It's rare that all four would be working out simultaneously, but I wanted to be upfront about it.
+
+[00:03:14] Customer: Fair enough. Alright, let's switch me to Family. Can you do that now?
+
+[00:03:19] Agent: Absolutely. I'll switch your plan from Premium to Family effective today. You'll be charged the prorated difference for the rest of this billing cycle, and then $39.99 from your next billing date. Your current profile stays exactly as it is — I'll just enable the ability to add up to three more profiles.
+
+[00:03:38] Customer: Perfect. And I add the other profiles through the app?
+
+[00:03:41] Agent: Yes, go to Settings > Family Profiles > Add Profile. Each person will create their own login email and password.
+
+[00:03:49] Customer: Great. Thanks Sarah, this was easy.
+
+[00:03:52] Agent: Happy to help! Welcome to Family. Enjoy the workouts, all four of you. Anything else?
+
+[00:03:57] Customer: No, that's it. Cheers.
